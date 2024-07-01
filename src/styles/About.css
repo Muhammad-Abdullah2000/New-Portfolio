@@ -1,0 +1,106 @@
+/* ...................Starting About Section...................... */
+#About {
+  background: var(--color-light);
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 29rem auto;
+  gap: 5rem;
+}
+
+.about-container p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+/* .read-more {
+     display: none; 
+  } */
+
+.show-more {
+  display: block;
+  margin: 1rem 0 2rem;
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+.about-img {
+  border: .5rem var(--color-primary) solid;
+  border-bottom: none;
+}
+
+.about-img:hover img {
+  transform: rotate(-5deg);
+  box-sizing: 0 0 2rem var(--color-primary-primary-light);
+}
+
+.show {
+  display: block;
+}
+
+.about-des a {
+  float: left;
+}
+
+/* ...................Ending About Section...................... */
+
+
+
+/* Media query 1200px */
+
+@media (max-width:1200px) {
+
+  /* About Section */
+
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .about-img {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .about-container p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .about-des a {
+    float: none;
+  }
+
+
+
+
+}
+
+
+
+
+/* Media query 600px */
+@media (max-width:600px) {
+
+
+  /* About Section */
+
+
+
+  .about-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+
+}
+
+
+
+
+
+/* ...................Media Scripting...................... */
+/* ...................Media Scripting...................... */
